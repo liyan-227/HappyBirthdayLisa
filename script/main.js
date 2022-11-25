@@ -122,13 +122,6 @@ const animationTimeline = () => {
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=2.5")
     .from(".idea-4", 0.7, ideaTextTrans)
     .to(".idea-4", 0.7, ideaTextTransLeave, "+=2.5")
-    .to(".idea-4 strong", 0.5, {
-      scale: 1.2,
-      x: 10,
-      backgroundColor: "rgb(21, 161, 237)",
-      color: "#fff",
-    })
-    
     .staggerFromTo(
       ".baloons img",
       2.5, {
@@ -199,7 +192,7 @@ const animationTimeline = () => {
         opacity: 0,
         scale: 80,
         repeat: 2,
-        repeatDelay: 11,
+        repeatDelay: 1.4,
       },
       0.3
     )
